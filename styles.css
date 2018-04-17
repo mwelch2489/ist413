@@ -1,0 +1,120 @@
+body {
+    background-color: bisque;
+    background-size: cover;
+}
+table{
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+th{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#tableDiv{
+    background-color: bisque;
+}
+#contactDiv, servicesDiv{
+    background-color: bisque;
+
+    margin: 0 auto;
+    height:580px;
+}
+#tableDivPerennials{
+    background-color: bisque;
+
+    margin: 0 auto;
+    height:600px;
+}
+#tableDivVegetables{
+    background-color: bisque;
+
+    margin: 0 auto;
+    height:1550px;
+}
+#c
+#carouselContainer{
+    background-color: bisque;
+    height:650px;
+}
+
+nav {
+    width: 100%;
+    height: 10px;
+    background: blue;
+    border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-decoration-color: aliceblue;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.c-wrapper{
+    width: 80%; 
+    margin: auto;
+}
+    
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a> img {
+    width:1050px;
+    height:550px;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0rem;
+    height:140px;
+    background-color: #efefef;
+    text-align: center;
+}
+.footerColumn{
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+    height: 140px;
+}
+#footerTxt{
+    line-height: 80%;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 18%;
+
+  }
