@@ -73,7 +73,7 @@ div.c-wrapper{
 
 .footer {
     clear: both;
-    position: relative;
+    position: absolute; /* Changed the footer from 'position: relative' to 'position: absolute' */
     right: 0;
     bottom: 0;
     left: 0;
