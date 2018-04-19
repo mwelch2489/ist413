@@ -2,6 +2,10 @@ body {
     background-color: bisque;
     background-size: cover;
 }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
 table{
     border: 1px solid black;
     width: 80%;
@@ -15,45 +19,40 @@ th{
 #tableDiv{
     background-color: bisque;
 }
-#contactDiv, servicesDiv{
-    background-color: bisque;
-
-    margin: 0 auto;
-    height:580px;
-}
 #tableDivPerennials{
     background-color: bisque;
-
     margin: 0 auto;
     height:600px;
 }
 #tableDivVegetables{
     background-color: bisque;
-
     margin: 0 auto;
     height:1550px;
+}
+#tableDivHardgoods{
+    background-color: bisque;
+    margin: 0 auto;
+    height:550px;
 }
 #c
 #carouselContainer{
     background-color: bisque;
     height:650px;
 }
-
-nav {
-    width: 100%;
-    height: 10px;
-    background: blue;
-    border-radius: 6px !important;
-    -moz-border-radius: 6px !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    text-decoration-color: aliceblue;
-}
-.column {
+#homePageColumn{
     float: left;
-    width: 33.33%;
+    width: 50%;
     padding: 10px;
-    height: 300px;
+}
+#footerTxt{
+    line-height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+}
+.navbar{
+    border-radius: 0;
 }
 .row:after {
     content: "";
@@ -61,39 +60,24 @@ nav {
     clear: both;
 }
 div.c-wrapper{
-    width: 80%; 
+    width: 70%; 
     margin: auto;
-}
-    
+}  
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a> img {
-    width:1050px;
-    height:550px;
+    width:100%;
+    height:100%;
 }
-
 .footer {
     clear: both;
     position: relative;
     right: 0;
-    bottom: 0;
+    bottom: 5;
     left: 0;
     padding: 0rem;
-    height:140px;
-    background-color: #efefef;
+    height:125px;
+    background: #efefef;
     text-align: center;
-}
-.footerColumn{
-    float: left;
-    width: 33.33%;
-    padding: 3px;
-    height: 140px;
-}
-#footerTxt{
-    line-height: 80%;;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 16px;
 }
 .fa {
     padding: 20px;
@@ -116,8 +100,63 @@ div.c-wrapper{
 .carousel-caption {
     position: absolute;
     bottom: 18%;
-
   }
 .btn-lg {
-    font-size:30px
+    font-size:25px
   }
+#welcomeTextContainer{
+    width: 900px;
+    margin: auto;
+  }
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+@media (max-width: 768px) {
+    .btn {
+      font-size:11px;
+      padding:4px 6px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .btn {
+      font-size:12px;
+      padding:6px 12px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .btn {
+      font-size:14px;
+      padding:8px 12px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .btn {
+      padding:10px 16px;
+      font-size:18px;
+    }
+  }
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
