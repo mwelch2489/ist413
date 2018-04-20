@@ -24,6 +24,7 @@ p{
 }
 .navbar{
     border-radius: 0;
+    background-color: black;
 }
 .row:after {
     content: "";
